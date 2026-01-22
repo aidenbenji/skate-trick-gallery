@@ -1,0 +1,54 @@
+.dark-mode-toggle {
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+  box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
+}
+
+.toggle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sun-icon {
+  color: #f59e0b;
+}
+
+.moon-icon {
+  color: #4b5563;
+}
+
+.dark-mode-toggle:hover .sun-icon {
+  animation: pulse 1s infinite;
+}
+
+.dark-mode-toggle:hover .moon-icon {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
