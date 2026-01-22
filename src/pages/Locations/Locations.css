@@ -380,7 +380,7 @@
   margin-bottom: 1rem;
   display: -webkit-box;
   display: -moz-box;
-  display: box;
+  display: flex;
   -webkit-line-clamp: 2;
   line-clamp: 2;
   -moz-line-clamp: 2;
