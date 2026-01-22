@@ -158,6 +158,23 @@
   color: var(  --text-light);
 }
 
+.sort-currency-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.currency-section label {
+  margin-right: 0.5rem;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.currency-section .sort-select {
+  min-width: 100px;
+}
+
 @media (max-width: 768px) {
   .shop-page {
     padding: 1rem;
