@@ -1,22 +1,49 @@
-# 🛹 Skate Trick Gallery
+# Skate Trick Gallery 
 
-A React-based skateboarding trick gallery perfect for a junior web developer portfolio. Features filtering, search, and responsive design.
+A modern React frontend showcasing skate spots, skateboarding tricks, and interactive features.
+
+## Live Demo
+
+[Live Demo](#)
+
+---
 
 ## Features
-- Browse skateboarding tricks with details and tips
-- Filter tricks by category (Flatground, Flip, Spin, etc.)
-- Search by trick name or description
-- Responsive design that works on mobile and desktop
-- Visual difficulty ratings with stars
-- Clean, modern UI with skateboarding theme
 
-## Technologies Used
-- React 18
-- CSS3 (with Flexbox and Grid)
-- Create React App for setup
+- Interactive Skate Spot Map – Search and filter skate spots worldwide
+- Light & Dark Mode Theming – Token-based design system with accessible colors
+- Animated UI – Smooth transitions and micro-interactions using Framer Motion
+- Responsive Design – Works on desktop, tablet, and mobile devices
+- Filterable Listings – Difficulty, features, and search filters
 
-## Getting Started
+---
 
-### 1. Install dependencies
+## Tech Stack
+
+- React
+- Framer Motion
+- Leaflet (OpenStreetMap)
+- JavaScript 
+- CSS with Design Tokens
+
+---
+
+## What I Learned
+
+- Structuring a scalable React frontend with reusable components  
+- Managing state for filters, search, and modal interactions  
+- Implementing light/dark themes cleanly with CSS variables  
+- Integrating third-party libraries like Leaflet maps into React  
+- Designing with accessibility and color contrast in mind
+
+---
+
+## Installation
+
+Clone the repo:
+
 ```bash
+git clone https://github.com/aidenbenji/skate-trick-gallery.git
+cd skate-trick-gallery
 npm install
+npm run dev
