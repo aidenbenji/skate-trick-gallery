@@ -38,6 +38,7 @@
   color: var(--text-light);
   max-width: 600px;
   margin: 0 auto;
+  margin-top: 2rem;
 }
 
 .tricks-stats {

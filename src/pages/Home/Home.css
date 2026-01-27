@@ -16,13 +16,14 @@
   font-size: 3.5rem;
   margin-bottom: 1rem;
     background: var(--gradient-accent);
+    margin-bottom: 2rem;
 }
 
 .hero-subtitle {
   font-size: 1.2rem;
   opacity: 0.9;
   max-width: 600px;
-  margin: 0 auto 2rem;
+  margin-top: 0 auto 2rem;
   line-height: 1.6;
 }
 
@@ -30,13 +31,13 @@
   padding: 1rem 3rem;
   background: white;
   color: var(--accent-primary);
-  border: none;
   border-radius: var(--radius-md);
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 2rem;
+  margin-top: 4rem;
+  border: none;
 }
 
 .hero-button:hover {
